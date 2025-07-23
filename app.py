@@ -44,7 +44,8 @@ if uploaded_files:
         st.image(image, caption=f"News #{idx}", use_container_width=True)
 
         # OCR with Marathi language
-        text = pytesseract.image_to_string(image, lang='mar')
+        text = pytesseract.image_to_string(image, lang='eng')
+
 
         # Detect newspaper from OCR text
         detected_paper = detect_newspaper(text, NEWSPAPER_LIST)

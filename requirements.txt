@@ -1,0 +1,9 @@
+streamlit
+pytesseract
+Pillow
+textblob
+openpyxl
+pandas
+
+
+https://github.com/tesseract-ocr/tessdata/tree/main

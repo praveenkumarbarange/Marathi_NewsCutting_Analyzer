@@ -1,0 +1,1 @@
+streamlit run "news_sentiment_cutting_app/app.py"

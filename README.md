@@ -1,9 +1,5 @@
 # Marathi_NewsCutting_Analyzer
 
-Here’s a concise and clear **GitHub project description** for your repository:
-
----
-
 ### 📰 Marathi News Cutting Sentiment Analyzer
 
 This Streamlit-based web app helps analyze scanned **Marathi news cutting images** by extracting text using OCR (Tesseract) and performing basic **sentiment analysis** on the extracted content.
@@ -37,5 +33,5 @@ You can add this to your:
 * GitHub repository description
 * App header inside Streamlit
 
-Would you like a full `README.md` version with usage instructions, setup, and screenshots too?
 
+-- End of Information --

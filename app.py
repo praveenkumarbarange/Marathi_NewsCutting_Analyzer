@@ -6,6 +6,14 @@ import pandas as pd
 import io
 from datetime import date
 
+import platform
+import pytesseract
+
+# Only set tesseract_cmd if on Windows (for local dev)
+if platform.system() == 'Windows':
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+
 # Optional: Path to tesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 

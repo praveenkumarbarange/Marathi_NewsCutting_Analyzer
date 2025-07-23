@@ -1,38 +1,41 @@
 # Marathi_NewsCutting_Analyzer
 
-📰 Marathi News Cutting Analyzer
-The Marathi News Cutting Analyzer is a Streamlit web application designed to analyze scanned news cuttings in image format. It extracts the Marathi text from the uploaded images using OCR (Optical Character Recognition), detects sentiment scores, and compiles structured metadata into an Excel report.
+Here’s a concise and clear **GitHub project description** for your repository:
 
-🔍 Features
-📸 Upload multiple Marathi newspaper cutting images
+---
 
-🔠 Extracts text content using Tesseract OCR
+### 📰 Marathi News Cutting Sentiment Analyzer
 
-🧠 Calculates sentiment scores (positive and negative emotions)
+This Streamlit-based web app helps analyze scanned **Marathi news cutting images** by extracting text using OCR (Tesseract) and performing basic **sentiment analysis** on the extracted content.
 
-🏷️ Allows manual tagging of:
+#### 🔍 Key Features:
 
-Subject/Title
+* Upload **multiple news cutting images** (JPG, PNG).
+* Automatically extract **subject/title** from the cutting.
+* Detect and match **newspaper name** from a predefined list.
+* Perform **sentiment analysis** (positive/negative scores) using TextBlob or ChatGPT.
+* Manually input metadata: date of publishing, departments, and link.
+* Get calculated sentiment scores:
 
-Publishing Date
+  * Satisfaction, Happiness, Pride, Overall Positive
+  * Dissatisfaction, Angry, Sad, Overall Negative
+* Export all results to a downloadable **Excel file**.
 
-Newspaper Name
+#### 🛠 Technologies:
 
-Department details
+* Streamlit (UI)
+* pytesseract (OCR)
+* TextBlob or OpenAI (Sentiment Analysis)
+* pandas (Data handling)
+* openpyxl (Excel export)
 
-News Link
+---
 
-📊 Exports all data and sentiment results to an Excel sheet
+You can add this to your:
 
-📦 Output Columns
-News No
+* `README.md`
+* GitHub repository description
+* App header inside Streamlit
 
-Subject Line (title)
+Would you like a full `README.md` version with usage instructions, setup, and screenshots too?
 
-Date of Publishing
-
-Newspaper Name
-
-Department
-
-Sentiment scores (Satisfaction, Happiness, Pride, Anger, Sadness
